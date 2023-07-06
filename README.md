@@ -81,7 +81,7 @@ him to a page where he can enter the ticker and the financial statement to displ
 > Here is a link to the demo project.
 
 - [Live Demo Link](https://finacial-eye.onrender.com/)
-- [short presenrtation]()
+- [presenrtation](https://drive.google.com/file/d/1COt0HTIfBTL00sWg9NqQlubfSywghIBQ/view?usp=sharing)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
