@@ -22,7 +22,7 @@ const Search = () => {
   };
   return (
     <div>
-      <Link to="/" id="back"><IoIosArrowBack /></Link>
+      <Link to="/" className="back"><IoIosArrowBack /></Link>
       <h1 id="searchTitle">Search</h1>
       <form onSubmit={(e) => handleSubmit(e)}>
         <input type="text" className="ticker" placeholder="symbol" value={ticker} onChange={(e) => setTicker((e.target.value).toUpperCase())} />
