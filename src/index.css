@@ -157,7 +157,9 @@ select {
 .breakdown {
   border: 1px solid whitesmoke;
   border-collapse: collapse;
-  width: 315px;
+  width: 250px;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .item {
@@ -172,14 +174,17 @@ select {
 .data {
   display: flex;
   overflow-x: scroll;
+  font-weight: 700;
+  font-size: 12px;
 }
 
 .incomeStatement {
   display: flex;
+  
 }
 
 .year {
-  width: 200px;
+  width: 180px;
 }
 
 #searchTitle {
