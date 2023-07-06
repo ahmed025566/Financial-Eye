@@ -46,8 +46,6 @@ REQUIRED SECTIONS:
 
 **Financial Eye** Financial Eye is a web app that provides users with access to financial statements for any stock. The app is easy to use and allows users to search for stocks by ticker symbol.Once a stock has been selected, users can view the company's financial statements, including the balance sheet, income statement, and cash flow statement.
 
-- [presntation] : https://drive.google.com/file/d/1MoL8wFqsR0VIh1Qek14H12JKQ4xC_jHM/view?usp=sharing
-
 ## 🛠 Built With <a name="built-with"></a>
 
 - HTML
@@ -67,6 +65,23 @@ REQUIRED SECTIONS:
   </ul>
 </details>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Key Features <a name="key-features"></a>
+- In the home page there is a list with the biggest 10 companies in the American stock market.
+- When the user clicks on any of these companies it will move him to a details page where
+he can select which finanial statment to preview.
+- There is an interface called search when the iuser clicks on the search link it will move 
+him to a page where he can enter the ticker and the financial statement to display. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Here is a link to the demo project.
+
+- [Live Demo Link]( https://ahmed025566.github.io/Smart-Money-hub/)
+- [short presenrtation](https://www.loom.com/share/0dd1f2464d3b418ca63eabe9fbba0b1b)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -133,7 +148,7 @@ npm run test
 - **Price Charts:** to provide the users with the prices for the stock ploted in a chart with
 some analysis below the chart.
 - **Financial News:**To provide the users with news about any stock they choose and some econmic news. 
-
+- **Download**: I will add a button to download the statements.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
