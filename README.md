@@ -80,8 +80,8 @@ him to a page where he can enter the ticker and the financial statement to displ
 
 > Here is a link to the demo project.
 
-- [Live Demo Link]( https://ahmed025566.github.io/Smart-Money-hub/)
-- [short presenrtation](https://www.loom.com/share/0dd1f2464d3b418ca63eabe9fbba0b1b)
+- [Live Demo Link]()
+- [short presenrtation]()
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
