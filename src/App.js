@@ -1,7 +1,17 @@
+import { Routes, Route } from 'react-router-dom';
+import Top10 from './components/Top10';
+import Search from './components/Search';
+import Stock from './components/stock';
+
 function App() {
   return (
     <div className="App">
-      <h1>test</h1>
+      <nav className="navBar" />
+      <Routes>
+        <Route path="/" element={<Top10 />} />
+        <Route path="/search" element={<Search />} />
+        <Route path="/:id" element={<Stock />} />
+      </Routes>
     </div>
   );
 }
