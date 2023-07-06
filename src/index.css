@@ -1,5 +1,9 @@
 body {
   margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  color: whitesmoke;
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -24,4 +28,199 @@ code {
     Consolas,
     'Courier New',
     monospace;
+}
+
+.App {
+  width: 425px;
+  height: 600vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #4369b2;
+}
+
+.logo {
+  background-color: #1d1d1d;
+  color: #fff;
+  width: 40%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: -10px;
+  height: 40px;
+  justify-content: center;
+  font-family: 'gill sans', Courier, monospace;
+}
+
+.navBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 70%;
+  margin: 0 auto 10px auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d1d1d;
+  font-weight: 800;
+}
+
+.title {
+  text-align: center;
+  color: white;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.stock {
+  flex-direction: column-reverse;
+  align-items: center;
+  background-color: #1d1d1d;
+  color: whitesmoke;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  font-family: 'Lato', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.stockLogo {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 30px;
+}
+
+.views {
+  position: relative;
+  top: 15px;
+}
+
+#back {
+  width: 30px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.search {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+}
+
+.symbol {
+  text-align: center;
+}
+
+select {
+  width: 250px;
+  height: 40px;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.get {
+  height: 40px;
+  width: 100px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+#allNumbers {
+  position: relative;
+  left: 55%;
+  top: -25px;
+}
+
+.breakdown {
+  border: 1px solid whitesmoke;
+  border-collapse: collapse;
+  width: 315px;
+}
+
+.item {
+  border: 1px solid whitesmoke;
+  border-collapse: collapse;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.data {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.incomeStatement {
+  display: flex;
+}
+
+.year {
+  width: 200px;
+}
+
+#searchTitle {
+  text-align: center;
+  margin-left: -50px;
+}
+
+.ticker {
+  width: 120px;
+  height: 28px;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+}
+
+.search-select {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.submit {
+  height: 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+#searchStatement {
+  margin-top: 30px;
+}
+
+.loading {
+  margin-top: 200px;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
 }
