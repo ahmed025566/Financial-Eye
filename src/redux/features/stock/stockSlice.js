@@ -3,12 +3,12 @@ import axios from 'axios';
 
 const apikey = '177a809841021e802a2af049a777057a';
 
-export const fetchStock = createAsyncThunk('stock/fetchStock', async (data) => {
+export const fetchStock = createAsyncThunk('stock/fetchStock', async (data, { rejectWithValue }) => {
   try {
     const response = await axios.get(`https://financialmodelingprep.com/api/v3/${data}?limit=12000&apikey=${apikey}`);
     return response.data;
   } catch (error) {
-    return error;
+    return rejectWithValue(error);
   }
 });
 
@@ -64,9 +64,9 @@ const stockSlice = createSlice({
           state.keys = data;
         }
       })
-      .addCase(fetchStock.rejected, (state, action) => {
+      .addCase(fetchStock.rejected, (state) => {
         state.laoding = false;
-        state.error = action.payload.message;
+        state.error = 'Failed to fetch';
       })
       .addCase(getView.pending, (state) => {
         state.laoding = true;

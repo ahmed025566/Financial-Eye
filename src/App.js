@@ -6,7 +6,6 @@ import Stock from './components/stock';
 function App() {
   return (
     <div className="App">
-      <nav className="navBar" />
       <Routes>
         <Route path="/" element={<Top10 />} />
         <Route path="/search" element={<Search />} />
